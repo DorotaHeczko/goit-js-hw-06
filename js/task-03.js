@@ -12,3 +12,17 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+// szukam elem gallery
+
+const photo = document.querySelector(".gallery");
+
+// tworzę elem img 
+for (const image of images) {
+  const url = `<li><img style="width: 500px;" src="${image.url}" alt="${image.alt}"></li>`;
+  photo.insertAdjacentHTML("afterBegin", url);
+  
+
+}
+  console.log(photo);
+
