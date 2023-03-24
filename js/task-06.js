@@ -1,5 +1,5 @@
 // pobieram referencje i dodaje dodaje zdarzenie blur do inputa
-const inputEl = document.getElementById("#validation-input");
+const inputEl = document.getElementById("validation-input");
 console.log(inputEl)
 
 inputEl.addEventListener("blur", () => {
